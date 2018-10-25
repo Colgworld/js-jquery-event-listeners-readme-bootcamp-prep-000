@@ -19,8 +19,9 @@ function submitIt() {
 
 function pressIt() {
 
-  console.log(key.which)
+
   $("input").on("keydown", function() {
+    console.log(key.which)
     if(key.which == 83) {
     alert('ooooo u did it now my G');
   }
