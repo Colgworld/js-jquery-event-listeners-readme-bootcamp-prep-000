@@ -13,6 +13,16 @@ function frameIt() {
 
 function submitIt() {
   $("form").on("submit", function() {
-    alert('your form is going to be submitted now');  
+    alert('your form is going to be submitted now');
   });
+}
+
+function pressIt() {
+
+  console.log(key.which)
+  $("input").on("keydown", function() {
+    if(key.which == 83) {
+    alert('ooooo u did it now my G');
+  }
+});
 }
