@@ -14,7 +14,7 @@ function frameIt() {
 function submitIt() {
     $("form").on("submit", function() {
     $( "input:first" ).val() === "correct")
-
+});
 return alert('your form is going to be submitted now');
-  });
+
 }
