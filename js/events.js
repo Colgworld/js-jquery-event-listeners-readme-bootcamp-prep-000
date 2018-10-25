@@ -26,7 +26,7 @@ function submitIt() {
 }
 
 function pressIt() {
-  $("input").on("keydown", function() {
+  $("input").on("keydown", function(key) {
     if(key.which === 71) {
     alert('ooooo u did it now my G');
   }
